@@ -10,16 +10,16 @@ Este template está configurado para ejecutarse en un contenedor **Python** y ex
 
 Sigue estos pasos para adaptar este template y desplegarlo en la plataforma de Hosting:
 
-1.  **Clonar el Template:** Clona este repositorio a tu cuenta personal de GitHub.
-2.  **Modificar el Código:**
-    * Trabaja en el archivo **`app.py`** para definir la lógica de tu aplicación y las rutas de API.
-    * Modifica el archivo **`static/style.css`** para cambiar el diseño.
-    * Modifica los archivos en la carpeta **`templates/`** para cambiar la interfaz de usuario.
-3.  **Dependencias:** Si tu proyecto requiere librerías adicionales de Python (más allá de Flask), añádelas al archivo **`requirements.txt`**.
-4.  **Registro en la plataforma de Hosting:**
-    * Una vez que tu código esté listo en tu repositorio personal, copia la URL de dicho repositorio.
-    * Regístrala en la interfaz de la plataforma de Hosting (Selecciona "Flask" como template).
-5.  **Despliegue:** La plataforma automáticamente construirá el contenedor Python y te proporcionará una URL local para acceder a tu aplicación.
+1.  **Clonar el Template:** Clona este repositorio a tu cuenta personal de GitHub.
+2.  **Modificar el Código:**
+    * Trabaja en el archivo **`app.py`** para definir la lógica de tu aplicación y las rutas de API.
+    * Modifica el archivo **`static/style.css`** para cambiar el diseño.
+    * Modifica los archivos en la carpeta **`templates/`** para cambiar la interfaz de usuario.
+3.  **Dependencias:** Si tu proyecto requiere librerías adicionales de Python (más allá de Flask), añádelas al archivo **`requirements.txt`**.
+4.  **Registro en la plataforma de Hosting:**
+    * Una vez que tu código esté listo en tu repositorio personal, copia la URL de dicho repositorio.
+    * Regístrala en la interfaz de la plataforma de Hosting (Selecciona "Flask" como template).
+5.  **Despliegue:** La plataforma automáticamente construirá el contenedor Python y te proporcionará una URL local para acceder a tu aplicación.
 
 ---
 
