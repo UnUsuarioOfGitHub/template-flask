@@ -2,7 +2,7 @@
 
 Este repositorio contiene el código base para una aplicación web dinámica construida con el framework **Flask** de Python, optimizada para el despliegue en la plataforma de Hosting.
 
-Este template está configurado para ejecutarse en un contenedor **Python** y exponer la aplicación a través del **Puerto 5000**.
+Este template está configurado para ejecutarse en un contenedor **Python con Gunicorn** y exponer la aplicación a través del **Puerto 80**.
 
 ---
 
@@ -32,7 +32,7 @@ Sigue estos pasos para adaptar este template y desplegarlo en la plataforma de H
 | `templates/` | Contiene los archivos HTML (Jinja2) que son renderizados por Flask. | ✅ SÍ |
 | `static/` | **Carpeta estándar de Flask** para archivos estáticos (CSS, JS, imágenes). | ✅ SÍ |
 | **`static/style.css`** | **Archivo de estilos CSS.** Utilizado por la plantilla `index.html`. | ✅ SÍ |
-| **`Dockerfile`** | **Instrucciones para Docker:** Configura el entorno Python y el Puerto 5000. | ❌ **NO** |
+| **`Dockerfile`** | **Instrucciones para Docker:** Configura el entorno Python (con Gunicorn) y el Puerto 80. | ❌ **NO** |
 
 ---
 
